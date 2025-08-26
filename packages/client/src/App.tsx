@@ -14,7 +14,7 @@ function App() {
    return (
       <div className="p-4 flex items-center gap-2 flex-col">
          <p className="font-bold text-3xl">{massage}</p>
-         <Button variant="outline">Click Me</Button>
+         <Button variant="outline">Click Me!</Button>
       </div>
    );
 }

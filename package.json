@@ -1,11 +1,15 @@
 {
-   "dependencies": {},
+   "dependencies": {
+      "lint-staged": "^16.1.5"
+   },
    "devDependencies": {
       "concurrently": "^9.2.1",
+      "husky": "^9.1.7",
       "prettier": "^3.6.2"
    },
    "scripts": {
       "dev": "bun run index.ts",
-      "format": "prettier --write ."
+      "format": "prettier --write .",
+      "prepare": "husky"
    }
 }
